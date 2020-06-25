@@ -1,0 +1,161 @@
+/*Slider1*/
+.slider-inicio{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+ 
+
+/*sliders imagenes*/
+
+.slider .slide1 img {
+    height: 250px;
+    width: 350px;
+}
+ 
+/*slider textros*/
+.slide1 {
+    display: flex;
+}
+
+  .slider-text {
+    margin-left: 70px;
+}
+.slider-text h2 {
+    letter-spacing: 7px;
+    color: rgb(10, 10, 10);
+} 
+.slider-text p{
+    font-size: 1.5rem;
+}
+.slider-text a {
+    background-color: #01295f;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 300px;
+}
+/*slider1 iconos*/
+.slide1 .arrow-left{
+    display: flex;
+    align-items: center;
+     
+}
+
+/*Slider 2*/
+.slider2 {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2017/05/Economia-finanzas-Libros-BBVA-1024x416.jpg);
+    width: 80%;
+    height: 300px;
+    margin:auto;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.text-slide2{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 0;
+     
+}
+
+.slider2 {
+    margin-top: 80px;
+}
+.slider2 h2 {
+    color: whitesmoke;
+    margin-left: 40px;
+    padding-top: 20px;
+    
+}
+.text-slide2 p{
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    line-height: 0.5rem;
+    color: whitesmoke;
+
+}
+
+.text-slide2 i{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.button-slide2{
+    margin-top: 30px;
+}
+.button-slide2 a{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 40px;
+    
+    
+}
+.button-slide2 a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Slider 3*/
+
+
+.slider3 {
+    background-image: url(slider-estudiante.jpg);
+    width: 80%;
+    height: 300px;
+    margin:auto;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider3 h2{
+    color: whitesmoke;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.text-slide3{
+     
+    margin-left: 40px;
+    margin-top: 0;
+     
+}
+
+.slider3 {
+    margin-top: 80px;
+}
+.slider3 .text-slide3 p {
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    line-height: 0.7rem;
+    color: whitesmoke;
+
+}
+.button-slide3{
+    margin-top: 50px;
+}
+.button-slide3 a{
+    background-color: #01295f;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 40px;
+   
+    
+    
+}
+.button-slide3 a:hover{
+    color: black;
+    background-color: white;
+}

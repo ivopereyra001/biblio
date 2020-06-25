@@ -1,0 +1,210 @@
+/*Historia Biblioteca*/
+
+/*Acceso rapido*/
+.acceso-rapido{
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.acceso-rapido .opcion-acceso-rapido{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+.opcion-acceso-rapido img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.opcion-acceso-rapido h3{
+    color: rgb(59, 59, 59);
+}
+
+section {
+    width: 85%;
+    margin: auto;
+}
+
+#historia-biblioteca{
+    margin-top: 50px;
+}
+.portada-biblioteca {
+    display: flex;
+    height: 600px;
+}
+.portada-biblioteca img{
+    width: 600px;
+    height:450px;
+}
+.historia-biblioteca{
+    width: 450px;
+    height: 450px;
+    margin-top: -25px;
+    margin-left: 60px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    padding: 0 10px;
+}
+ 
+.historia-biblioteca p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: 3px;
+}
+
+/*redes sociales*/
+
+.redes-sociales{
+  margin-top:-150px;
+  border-top: 1px ;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+ 
+
+.red-social img{
+    width: 50px;
+    height: 50px;
+
+}
+.red-social {
+    text-align: center;
+}
+
+/*Inscripcion*/
+
+#inscripcion-biblioteca {
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    border-top: 2px solid yellow;
+}
+.cabecera-inscripcion{
+    text-align: center;
+}
+.cabecera-inscripcion  h2{
+    font-size: 2rem;
+    
+}
+.cabecera-inscripcion p{
+    font-size: 1.3rem;
+     
+}
+/*Requesitos*/
+.requesitos{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.requesito{
+    width:200px;
+    height: 250px;
+    text-align: center;
+    
+}
+.requesito img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+.requesito h3{
+    font-size: 1.5rem;
+    color: rgb(20, 20, 20);
+}
+
+.requesitos p{
+    font-size: 1.3rem;
+    color: #292929;
+}
+
+/*Visitas*/
+#visitas-biblioteca {
+    width: 85%;
+    height: 600px; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    border-top: 2px solid red;
+   
+
+}
+.slide-visitas{
+    width: 500px;
+    margin-top: 50px;
+}
+.slide-visitas img {
+    height: 400px;
+    width: 100%;
+}
+
+.text-visitas{
+    width:  50%;
+     
+    margin-top: 50px;
+    text-align: center;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    
+}
+
+.text-visitas h2{
+    font-size:2rem;
+}
+/*Donaciones*/
+#donasiones-biblioteca {
+    height: 600px;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    border-top: 2px solid #01295f;
+}
+.cabecera-donasiones{
+    text-align: center;
+}
+.cabecera-donasiones  h2{
+    font-size: 2rem;
+    
+}
+.cabecera-donasiones p{
+    font-size: 1.3rem;
+     
+}
+
+
+
+.requesitos-donasiones{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.requesito-donasiones{
+    width:200px;
+    height: 275px;
+    text-align: center;
+    
+}
+.requesito-donasiones img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+.requesito-donasiones h3{
+    font-size: 1.5rem;
+    color: rgb(20, 20, 20);
+    height: 55px;
+}
+
+.requesitos-donasiones p{
+    font-size: 1.3rem;
+    height: 25px;
+}
+

@@ -1,0 +1,283 @@
+/*Seecion Moviminetos*/
+.movimientos {
+    width: 85%;
+    margin: auto;
+    margin-top: 70px;  
+    margin-bottom: 100px;       
+    
+}
+.movimientos .titulo-movimiento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-movimiento a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #193d6b;
+    color: whitesmoke;
+    border-radius: 5px ;
+}
+
+.titulo-movimiento a:hover{
+    background-color:  #6784aa;
+    
+}
+
+.cabecera  {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.cabecera i{
+    color: yellow;
+    font-size: 2rem;
+    
+}
+.cabecera p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+}
+
+.image-movimiento {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-movimiento img {
+    width: 400px;
+}
+.text-movimiento{
+    margin-left: 50px;
+}
+.image-movimiento .text-movimiento h2{
+    font-size: 1.5rem;
+    margin-top: -40px;
+    
+}
+.image-movimiento .text-movimiento p{
+    font-size: 1.5rem;
+    color: rgb(49, 49, 49);
+}
+.text-movimiento i{
+    font-size: 2rem;
+    color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+.text-movimiento a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+/*Autores*/
+.autores {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.autores .titulo-autores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-autores a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #193d6b;
+    color: whitesmoke;
+    border-radius: 5px ;
+}
+
+.titulo-autores a:hover{
+    background-color:  #6784aa;
+    
+}
+
+.autores .cabecera  {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.autores .cabecera i{
+    color: yellow;
+    font-size: 2rem;
+    
+}
+.autores .cabecera p{
+ 
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+}
+
+.image-y-text-autores {
+    width:100%;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-y-text-autores img {
+    width: 400px
+}
+.text-autores{
+    margin-left: 50px;
+}
+.image-y-text-autores .text-autores h2{
+    font-size: 1.5rem;
+    margin-top: -40px;
+    
+}
+.image-y-text-autores  .text-autores p{
+    font-size: 1.5rem;
+    color: rgb(49, 49, 49);
+}
+.text-autores i{
+    font-size: 2rem;
+    color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+.text-autores a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Autores Baradero*/
+.libros-baradero {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+.total-de-libros-bardero{
+    display: flex;
+ 
+}
+.libros-baradero .titulo-libros-baradero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.libros-baradero  a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #193d6b;
+    color: whitesmoke;
+    border-radius: 5px ;
+}
+
+.titulo-libros-baradero  a:hover{
+    background-color:  #6784aa;
+    
+}
+
+.libros-baradero  .cabecera  {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.libros-baradero  .cabecera i{
+    color: yellow;
+    font-size: 2rem;
+    
+}
+.libros-baradero  .cabecera p{
+    color:rgba(34, 33, 35, 1);
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+}
+
+.libros-secundarios-baradero{
+    display:flex;
+    margin-top: 50px;
+ 
+}
+.libro-baradero-del-mes{
+    width:  250px;
+    height: 350px;
+}
+
+.libro-baradero-del-mes img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+
+}
+.libros-baradero:nth-child(1){
+    margin-left: 0;
+}
+.libro-baradero{
+    width: 180px;
+    height: 280px;
+    margin:  20px;
+}
+.libro-baradero img{
+    width: 100%;
+    height: 250px;
+    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+ 
+.nombres-libro p{
+    font-size: 1.2rem;
+
+}
+.nombres-libro a{
+    font-size: 1rem;
+    border: 2px solid #cdc7e5;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    margin-top: 0;
+}
+.nombres-libro a:hover{
+    background-color: #cdc7e5;
+    color: black;
+    cursor: pointer;
+
+            
+     
+}
+/*texto del libros del mes*/
+ 
+.nombres-libro-del-mes p{
+    font-size: 1.4rem;
+
+}
+.nombres-libro-del-mes a{
+    font-size: 1.2rem;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    margin-top: 0;
+}
+
+
+
